@@ -11,10 +11,12 @@ Purpose: Created in 2024/3/17, using
 
 
 ```shell
-npm install -g common-readme
+python ...
 ```
+## Pipeline
 
-## Referece Paper: 
+
+## Referece Paper
 
 
 # Contributors
