@@ -11,14 +11,15 @@ Created in 2024/3/17, using
 
 ```
 Repository file structure:
+    |-- downloader.py
+    |-- downloader.py
+    |-- flow_pcap.py
     |-- Model 
         |-- ResNet.py
         |-- model.py
         |-- run.py
     |-- PEdeleter.py
     |-- Pcap2Img.py
-    |-- downloader.py
-    |-- downloader.py
     |-- README.md
 ```
 
