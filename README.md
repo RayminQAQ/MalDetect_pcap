@@ -22,15 +22,18 @@ Repository file structure:
     |-- README.md
 ```
 
+By **[Benson](https://github.com/benson5104)**
+- uploader.py: Uploads viruses to the api server of cuckoo sandbox, be sure to change the result to the place you want to .pcap files to be and change PEs to the folder containing viruses, also              change api token to your own token in cuckoo.conf
 
-uploader.py: Uploads viruses to the api server of cuckoo sandbox, be sure to change the result to the place you want to .pcap files to be and change PEs to the folder containing viruses, also              change api token to your own token in cuckoo.conf
+- downloader.py: Downloads .pcap file from the api server, be sure to change the result folder and api token to your own token
 
-downloader.py: Downloads .pcap file from the api server, be sure to change the result folder and api token to your own token
+- tempdeleter.py: only used when the vmware goes down, deletes all other folders in result if the api token is larger than number in line20(line>=3920)
 
-tempdeleter.py: only used when the vmware goes down, deletes all other folders in result if the api token is larger than number in line20(line>=3920)
+- PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
 
-PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
-
+By **[RayminQAQ](https://github.com/RayminQAQ)**:
+- Model directory:
+- Pcap2Img.py:
 
 ## Pipeline
 The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop), package dependencies are stored in requirement.txt.
