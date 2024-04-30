@@ -10,7 +10,7 @@ Created in 2024/3/17, using
 ## Project Structure
 
 ```
-(数据集名称)
+Repository file structure:
     |-- Model 
         |-- ResNet.py
         |-- model.py
