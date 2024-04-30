@@ -37,6 +37,9 @@ By **[RayminQAQ](https://github.com/RayminQAQ)**:
   - Files in "**Model**" folder: Whole Machine Learning pipline for training and testing.
   - **flow_pcap.py**: split pcap into small pieces (seperated by TCP) according to the paper.
 
+By **[Stan](https://github.com/StanNTUST)**:
+  - **Pcap2Img.py**: read the .pcap file and turn to hex bytes. If the number of hex bytes is less than 784, the program will put it 0x00 to 784. If it is higher than 784, the program will get first 784. After get 784 hex bytes, the program will turn it to 28*28 images and be saved by category
+
 ## Pipeline
 The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop).
 
@@ -80,5 +83,5 @@ Classification using PCAP to Picture Conversion
 1. **[RayminQAQ](https://github.com/RayminQAQ)**:
     - Within the repository, processed pcap files in alignment with the referenced paper and constructed the complete machine learning pipeline.
     - Within the team, oversaw all tasks, provided leadership, and conducted survey paper research.
-2. **[Stan Wang](https://github.com/StanNTUST)**:
+2. **[Stan Wang](https://github.com/StanNTUST)**: I made Pcap2Img.py to turn the file to the image.
 3. **[Benson](https://github.com/benson5104)**: I made uploader.py, downloader.py, tempdeleter.py and PEdeleter.py
