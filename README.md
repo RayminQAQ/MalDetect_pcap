@@ -15,7 +15,7 @@ Created in 2024/3/17, using
 ## Pipeline
 The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop), package dependencies are stored in requirement.txt.
 
-To setup the environment:
+To setup the environment, you should setup python's virtual environment and type:
 ```shell
 python requirement.txt.
 ```
