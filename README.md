@@ -32,4 +32,4 @@ python requirement.txt.
 # Contributors
 1. RayminQAQ
 2. Stan Wang
-3. Benson
+3. Benson:I made uploader,downloader,tempdeleter and PEdeleter
