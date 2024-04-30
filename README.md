@@ -78,7 +78,7 @@ Classification using PCAP to Picture Conversion
 
 ## Contributors
 1. **[RayminQAQ](https://github.com/RayminQAQ)**:
-  - Within the repository, processed pcap files in alignment with the referenced paper and constructed the complete machine learning pipeline.
-  - Within the team, oversaw all tasks, provided leadership, and conducted survey paper research.
+    - Within the repository, processed pcap files in alignment with the referenced paper and constructed the complete machine learning pipeline.
+    - Within the team, oversaw all tasks, provided leadership, and conducted survey paper research.
 2. **[Stan Wang](https://github.com/StanNTUST)**:
 3. **[Benson](https://github.com/benson5104)**: I made uploader.py, downloader.py, tempdeleter.py and PEdeleter.py
