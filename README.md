@@ -1,6 +1,6 @@
 # Project name: pcap_MalDetect
 ## Purpose: 
-Created in 2024/3/17, using 
+Created in 2024/4/29, using 
   1. cuckoo sandbox to generate pcap from malware
   2. malware dataset from VirusShare.com (orginate in VirusShare_00177).
   > VirusShare_00177 Dataset Overview:
