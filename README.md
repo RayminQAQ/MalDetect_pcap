@@ -25,15 +25,14 @@ To setup the environment, you should setup python's virtual environment and type
 python requirement.txt
 ```
 1. run the uploader.py to upload the files to api server
-```shell
-python uploader.py
-```
+    ```shell
+    python uploader.py
+    ```
 
 2. run the downloader.py after all the files are processed to download all .pcap files
-
-   ```shell
-python downloader.py
-```
+    ```shell
+    python downloader.py
+    ```
 
 3. tmp
 
