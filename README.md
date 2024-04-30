@@ -34,7 +34,7 @@ By **[Benson](https://github.com/benson5104)**
 - PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
 
 By **[RayminQAQ](https://github.com/RayminQAQ)**:
-- Model directory: Whole Train && Testing pipline
+- Model directory: Whole Machine Learning pipline for training and testing.
 - flow_pcap.py: split pcap into small pieces (seperated by TCP) according to the paper.
 
 ## Pipeline
@@ -74,5 +74,5 @@ To setup the environment, you should setup python's virtual environment and type
 1. **[RayminQAQ](https://github.com/RayminQAQ)**:
   - In the repository: Processed pcap files according to the referenced paper and built the entire machine learning pipeline.
   - In the team: Supervised tasks and lead the whole team.
-2. Stan Wang:
+2. **[Stan Wang](https://github.com/StanNTUST)**:
 3. **[Benson](https://github.com/benson5104)**: I made uploader,downloader,tempdeleter and PEdeleter
