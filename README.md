@@ -68,7 +68,7 @@ To setup the environment, you should setup python's virtual environment and type
     ```
 
 ## Referece Paper
-!([](https://github.com/RayminQAQ/pcap_MalDetect/blob/main/image.png?raw=true)){ style="display: block; margin: 0 auto" }
+![](https://github.com/RayminQAQ/pcap_MalDetect/blob/main/image.png?raw=true){ style="display: block; margin: 0 auto" }
 
 1. [Malware Traffic Classification Using Convolutional
 Neural Network for Representation Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7899588)
