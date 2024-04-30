@@ -30,6 +30,8 @@ python requirement.txt.
 
 
 # Contributors
-1. RayminQAQ
-2. Stan Wang
-3. Benson:I made uploader,downloader,tempdeleter and PEdeleter
+1. RayminQAQ:
+  - In the repository: Processed pcap files according to the referenced paper and built the entire machine learning pipeline.
+  - In the team: Supervised tasks and led the team.
+2. Stan Wang:
+3. Benson: I made uploader,downloader,tempdeleter and PEdeleter
