@@ -69,6 +69,11 @@ To setup the environment, you should setup python's virtual environment and type
 
 ## Referece Paper
 
+1. [Malware Traffic Classification Using Convolutional
+Neural Network for Representation Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7899588)
+2. [Image-based Neural Network Models for Malware Traffic
+Classification using PCAP to Picture Conversion
+](https://dl.acm.org/doi/pdf/10.1145/3538969.3544473)
 
 # Contributors
 1. **[RayminQAQ](https://github.com/RayminQAQ)**:
