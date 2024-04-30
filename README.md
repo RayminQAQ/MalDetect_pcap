@@ -25,17 +25,17 @@ Repository file structure:
 ```
 
 By **[Benson](https://github.com/benson5104)**
-- uploader.py: Uploads viruses to the api server of cuckoo sandbox, be sure to change the result to the place you want to .pcap files to be and change PEs to the folder containing viruses, also              change api token to your own token in cuckoo.conf
-
-- downloader.py: Downloads .pcap file from the api server, be sure to change the result folder and api token to your own token
-
-- tempdeleter.py: only used when the vmware goes down, deletes all other folders in result if the api token is larger than number in line20(line>=3920)
-
-- PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
+  - uploader.py: Uploads viruses to the api server of cuckoo sandbox, be sure to change the result to the place you want to .pcap files to be and change PEs to the folder containing viruses, also              change api token to your own token in cuckoo.conf
+  
+  - downloader.py: Downloads .pcap file from the api server, be sure to change the result folder and api token to your own token
+  
+  - tempdeleter.py: only used when the vmware goes down, deletes all other folders in result if the api token is larger than number in line20(line>=3920)
+  
+  - PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
 
 By **[RayminQAQ](https://github.com/RayminQAQ)**:
-- Model directory: Whole Machine Learning pipline for training and testing.
-- flow_pcap.py: split pcap into small pieces (seperated by TCP) according to the paper.
+  - Files in "Model" folder: Whole Machine Learning pipline for training and testing.
+  - flow_pcap.py: split pcap into small pieces (seperated by TCP) according to the paper.
 
 ## Pipeline
 The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop).
