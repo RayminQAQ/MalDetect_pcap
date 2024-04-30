@@ -8,6 +8,21 @@ Created in 2024/3/17, using
   > The VirusShare_00177 dataset is a collection of malware samples that were submitted to the VirusShare website. The dataset includes both benign and malicious     samples, and it can be used for a variety of machine learning tasks, such as malware detection and classification.
 
 ## Project Structure
+
+```
+(数据集名称)
+    |-- Model 
+        |-- ResNet.py
+        |-- model.py
+        |-- run.py
+    |-- PEdeleter.py
+    |-- Pcap2Img.py
+    |-- downloader.py
+    |-- downloader.py
+    |-- README.md
+```
+
+
 uploader.py: Uploads viruses to the api server of cuckoo sandbox, be sure to change the result to the place you want to .pcap files to be and change PEs to the folder containing viruses, also              change api token to your own token in cuckoo.conf
 
 downloader.py: Downloads .pcap file from the api server, be sure to change the result folder and api token to your own token
