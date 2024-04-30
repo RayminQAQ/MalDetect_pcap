@@ -38,12 +38,10 @@ By **[RayminQAQ](https://github.com/RayminQAQ)**:
 - flow_pcap.py: split pcap into small pieces (seperated by TCP) according to the paper.
 
 ## Pipeline
-The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop), package dependencies are stored in requirement.txt.
+The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop).
 
 To setup the environment, you should setup python's virtual environment and type:
-```shell
-python requirement.txt
-```
+
 1. run the uploader.py to upload the files to api server
     (Notice: You should change your apikey)
     ```shell
