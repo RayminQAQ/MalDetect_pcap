@@ -12,7 +12,6 @@ Created in 2024/3/17, using
 ```
 Repository file structure:
     |-- downloader.py
-    |-- downloader.py
     |-- flow_pcap.py
     |-- Model 
         |-- ResNet.py
@@ -20,6 +19,8 @@ Repository file structure:
         |-- run.py
     |-- PEdeleter.py
     |-- Pcap2Img.py
+    |-- tempDeleter.py
+    |-- uploader.py
     |-- README.md
 ```
 
@@ -33,8 +34,8 @@ By **[Benson](https://github.com/benson5104)**
 - PEdeleter.py: only used when vmware goes down, run it after tempdeleter, it will remove all files that are already processed
 
 By **[RayminQAQ](https://github.com/RayminQAQ)**:
-- Model directory:
-- Pcap2Img.py:
+- Model directory: Whole Train && Testing pipline
+- flow_pcap.py: split pcap into small pieces (seperated by TCP) according to the paper.
 
 ## Pipeline
 The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop), package dependencies are stored in requirement.txt.
@@ -44,6 +45,7 @@ To setup the environment, you should setup python's virtual environment and type
 python requirement.txt
 ```
 1. run the uploader.py to upload the files to api server
+    (Notice: You should change your apikey)
     ```shell
     python uploader.py
     ```
@@ -55,9 +57,17 @@ python requirement.txt
     python downloader.py
     ```
 
-4. tmp
+4. Turn pcap file into image (.png)
 
-
+    ```shell
+    python flow_pcap.py
+    python Pcap2Img.py
+    ```
+    
+5. Train the Maching Learning model
+    ```shell
+    python run.py
+    ```
 
 ## Referece Paper
 
