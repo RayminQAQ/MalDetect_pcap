@@ -47,7 +47,8 @@ python requirement.txt
     python uploader.py
     ```
 
-2. run the downloader.py after all the files are processed to download all .pcap files (WARNING: you may come into many problem due to the setting of cuckoo sandbox, see [cuckoo sandbox documentation](https://cuckoo.readthedocs.io/en/latest/) for help.)
+2. run the downloader.py after all the files are processed to download all .pcap files
+(WARNING: you may come into many problem due to the setting of cuckoo sandbox, see [cuckoo sandbox documentation](https://cuckoo.readthedocs.io/en/latest/) for help.)
     ```shell
     python downloader.py
     ```
