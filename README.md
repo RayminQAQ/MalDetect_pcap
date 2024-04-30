@@ -22,17 +22,23 @@ The project is run in Python 3.8.10 and cuda version 12.3 (RTX 3060 laptop), pac
 
 To setup the environment, you should setup python's virtual environment and type:
 ```shell
-python requirement.txt.
+python requirement.txt
 ```
 1. run the uploader.py to upload the files to api server
-2. run the downloader.py after all the files are processed to download all .pcap files
-3. 
+   ```shell
+python uploader.py
+```
+3. run the downloader.py after all the files are processed to download all .pcap files
+   ```shell
+python downloader.py
+```
+4. 
 ## Referece Paper
 
 
 # Contributors
-1. [RayminQAQ](https://github.com/RayminQAQ):
+1. **[RayminQAQ](https://github.com/RayminQAQ)**:
   - In the repository: Processed pcap files according to the referenced paper and built the entire machine learning pipeline.
   - In the team: Supervised tasks and lead the whole team.
 2. Stan Wang:
-3. [Benson](https://github.com/benson5104): I made uploader,downloader,tempdeleter and PEdeleter
+3. **[Benson](https://github.com/benson5104)**: I made uploader,downloader,tempdeleter and PEdeleter
