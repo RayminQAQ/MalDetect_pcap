@@ -11,7 +11,7 @@ dataset_root = "../image_data"
 
 #transform image to the same size
 transforms = transforms.Compose([
-    transforms.RandomResizedCrop(size=(512, 512), antialias=True),
+    transforms.RandomResizedCrop(size=(28, 28), antialias=True),
     transforms.RandomHorizontalFlip(p=0.5),
     transforms.ToTensor(),
 ])
@@ -35,7 +35,7 @@ model.to(device)
 
 # Train & Test
 # Define epochs_size, loss function and optimizer
-epochs_size=10
+epochs_size=30
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.AdamW(model.parameters(), lr=0.001)
 
